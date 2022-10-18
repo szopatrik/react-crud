@@ -1,0 +1,25 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+.idea
+frontend/.idea
+# dependencies
+frontend/node_modules
+backend/node_modules
+
+# production
+frontend/build
+backend/build
+backend/dist
+
+# keys
+backend/src/service_accounts
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+
+/backend/.env.yaml
